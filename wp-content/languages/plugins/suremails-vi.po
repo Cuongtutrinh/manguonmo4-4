@@ -1,0 +1,1027 @@
+# Translation of Plugins - SureMail – SMTP and Email Logs Plugin with Auto-Retry Mechanism - Stable (latest release) in Vietnamese
+# This file is distributed under the same license as the Plugins - SureMail – SMTP and Email Logs Plugin with Auto-Retry Mechanism - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-02-27 22:08:41+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: vi_VN\n"
+"Project-Id-Version: Plugins - SureMail – SMTP and Email Logs Plugin with Auto-Retry Mechanism - Stable (latest release)\n"
+
+#: inc/emails/providers/phpmail/phpmail-handler.php:151
+msgid "PHP Mail"
+msgstr "PHP Mail"
+
+#. translators: %s: The error message.
+#: inc/emails/providers/phpmail/phpmail-handler.php:134
+msgid "Email sending failed via PHP Mail: %s"
+msgstr "Việc gửi email qua PHP Mail đã thất bại: %s"
+
+#: inc/emails/providers/phpmail/phpmail-handler.php:125
+msgid "Email sent successfully via PHP Mail."
+msgstr "Email đã được gửi thành công qua PHP Mail."
+
+#: inc/emails/providers/phpmail/phpmail-handler.php:119
+msgid "Email sending failed via PHP Mail."
+msgstr "Việc gửi email qua PHP Mail đã thất bại."
+
+#: inc/emails/providers/phpmail/phpmail-handler.php:80
+msgid "PHP Mail connection failed."
+msgstr "Không thể kết nối với PHP Mail."
+
+#: inc/emails/providers/phpmail/phpmail-handler.php:67
+msgid "This is a test email to verify PHP mail() is working."
+msgstr "Đây là một email thử nghiệm để xác minh chức năng mail() của PHP đang hoạt động."
+
+#: inc/emails/providers/phpmail/phpmail-handler.php:66
+msgid "PHP mail() Function Test"
+msgstr "Kiểm tra hàm mail() trong PHP"
+
+#: inc/emails/providers/phpmail/phpmail-handler.php:60
+msgid "From Email is missing in the connection data."
+msgstr "Thông tin Từ Email bị thiếu trong dữ liệu kết nối."
+
+#: inc/emails/providers/netcore/netcore-handler.php:219
+msgid "Enter your Netcore API key"
+msgstr "Nhập API key Netcore của bạn"
+
+#: inc/emails/providers/netcore/netcore-handler.php:200
+msgid "Netcore"
+msgstr "Netcore"
+
+#: inc/emails/providers/netcore/netcore-handler.php:196
+msgid "Netcore Connection"
+msgstr "Kết nối Netcore"
+
+#. translators: %s: www.mailgun.com/about/regions/ URL.
+#: inc/emails/providers/sparkpost/sparkpost-handler.php:299
+msgid "Select the endpoint you want to use for sending messages. If you are subject to EU laws, you may need to use the EU region. %1$sLearn more at SparkPost.com%2$s"
+msgstr "Chọn điểm cuối mà bạn muốn sử dụng để gửi tin nhắn. Nếu bạn thuộc đối tượng chịu sự điều chỉnh của luật EU, bạn có thể cần sử dụng khu vực EU. %1$sTìm hiểu thêm tại SparkPost.com%2$s"
+
+#: inc/emails/providers/sparkpost/sparkpost-handler.php:297
+msgid "Select your SpartPost region"
+msgstr "Chọn khu vực SpartPost của bạn"
+
+#. translators: %s: Error message.
+#: inc/emails/providers/sparkpost/sparkpost-handler.php:200
+msgid "Email sending failed via SparkPost. Error: %s"
+msgstr "Việc gửi email qua SparkPost đã thất bại. Lỗi: %s"
+
+#: inc/emails/providers/sparkpost/sparkpost-handler.php:195
+msgid "Unknown error"
+msgstr "Lỗi không xác định"
+
+#: inc/emails/providers/sparkpost/sparkpost-handler.php:190
+msgid "Email sent successfully via SparkPost."
+msgstr "Email đã được gửi thành công qua SparkPost."
+
+#. translators: %s: Error message.
+#: inc/emails/providers/sparkpost/sparkpost-handler.php:177
+msgid "Error: %s"
+msgstr "Lỗi: %s"
+
+#: inc/emails/providers/sparkpost/sparkpost-handler.php:102
+msgid "API key is missing in the connection data."
+msgstr "API key bị thiếu trong dữ liệu kết nối."
+
+#: inc/emails/providers/smtp2go/smtp2go-handler.php:230
+msgid "Email sent successfully via SMTP2GO."
+msgstr "Email đã được gửi thành công qua SMTP2GO."
+
+#: inc/emails/providers/smtp2go/smtp2go-handler.php:220
+#: inc/emails/providers/smtp2go/smtp2go-handler.php:235
+#: inc/emails/providers/smtp2go/smtp2go-handler.php:240
+msgid "Email sending failed via SMTP2GO. Error: "
+msgstr "Gửi email qua SMTP2GO không thành công. Lỗi: "
+
+#: inc/emails/providers/postmark/postmark-handler.php:223
+msgid "Enter your Postmark Message Stream"
+msgstr "Nhập Stream tin nhắn Postmark của bạn"
+
+#: inc/emails/providers/postmark/postmark-handler.php:222
+msgid "The Message Stream ID is optional. If not provided, the default outbound stream (Transactional Stream) will be used."
+msgstr "ID Stream tin nhắn là không bắt buộc. Nếu không được cung cấp, luồng xuất mặc định (Stream giao dịch) sẽ được sử dụng."
+
+#: inc/emails/providers/postmark/postmark-handler.php:219
+msgid "Message Stream ID"
+msgstr "ID Stream tin nhắn"
+
+#. translators: %s: postmark URL.
+#: inc/emails/providers/postmark/postmark-handler.php:210
+msgid "Obtain your API key from Postmark. You can find your API key under the API Tokens tab in your account. %1$sClick here%2$s"
+msgstr "Nhận API key của bạn từ Postmark. Bạn có thể tìm thấy API key của mình dưới tab API Tokens trong tài khoản của bạn. %1$sNhấp vào đây%2$s"
+
+#: inc/emails/providers/postmark/postmark-handler.php:164
+msgid "Email sent successfully via Postmark."
+msgstr "Email đã được gửi thành công qua Postmark."
+
+#: inc/emails/providers/postmark/postmark-handler.php:153
+#: inc/emails/providers/postmark/postmark-handler.php:169
+msgid "Email sending failed via Postmark. "
+msgstr "Gửi email qua Postmark không thành công. "
+
+#: inc/emails/providers/postmark/postmark-handler.php:144
+msgid "Email sending failed via Postmark. Failed to encode email payload to JSON."
+msgstr "Gửi email qua Postmark không thành công. Không thể mã hóa nội dung email thành JSON."
+
+#: inc/emails/providers/mailjet/mailjet-handler.php:270
+msgid "Enter your Mailjet Secret key"
+msgstr "Nhập Secret key Mailjet của bạn"
+
+#. translators: %s: Error message.
+#: inc/emails/providers/mailjet/mailjet-handler.php:225
+msgid "Email sending failed via Mailjet: %s"
+msgstr "Việc gửi email qua Mailjet đã thất bại: %s"
+
+#: inc/emails/providers/mailjet/mailjet-handler.php:216
+msgid "Email sent successfully via Mailjet."
+msgstr "Email đã được gửi thành công qua Mailjet."
+
+#: inc/emails/providers/mailjet/mailjet-handler.php:137
+msgid "Mailjet API key and Secret key are required."
+msgstr "API key Mailjet và Secret key là bắt buộc."
+
+#. translators: 1: Error Message
+#: inc/emails/providers/mailjet/mailjet-handler.php:106
+msgid "Mailjet: Authentication failed: %1$s"
+msgstr "Mailjet: Xác thực không thành công: %1$s"
+
+#. translators: 1: Error Message
+#: inc/emails/providers/mailjet/mailjet-handler.php:93
+msgid "Authentication error: %1$s"
+msgstr "Lỗi xác thực: %1$s"
+
+#: inc/emails/providers/mailjet/mailjet-handler.php:73
+msgid "Authentication keys are missing."
+msgstr "Thiếu khóa xác thực."
+
+#. translators: 1: Error log
+#: inc/emails/providers/elastic/elastic-handler.php:555
+msgid "Email sending failed via Elastic Email. Error: %1$s"
+msgstr "Việc gửi email qua Elastic Email đã thất bại. Lỗi: %1$s"
+
+#: inc/emails/providers/elastic/elastic-handler.php:547
+msgid "Failed to decode JSON response from Elastic Email."
+msgstr "Không thể giải mã phản hồi JSON từ Elastic Email."
+
+#: inc/emails/providers/elastic/elastic-handler.php:540
+msgid "Email sending failed via Elastic Email. Unauthorized: API key invalid or insufficient permissions."
+msgstr "Gửi email không thành công qua Elastic Email. Không được phép: API key không hợp lệ hoặc quyền không đủ."
+
+#: inc/emails/providers/elastic/elastic-handler.php:523
+msgid "Email sending failed via Elastic Email. Failed to encode email payload to JSON."
+msgstr "Việc gửi email qua Elastic Email đã thất bại. Không thể mã hóa nội dung email thành JSON."
+
+#: inc/emails/providers/elastic/elastic-handler.php:483
+msgid "Select Email Type"
+msgstr "Chọn loại email"
+
+#: inc/emails/providers/elastic/elastic-handler.php:481
+msgid "Email Type"
+msgstr "Loại email"
+
+#. translators: %s: www.mailgun.com/about/regions/ URL.
+#: inc/emails/providers/elastic/elastic-handler.php:477
+msgid "Select the type of email you will be sending using this connection. Choose Transactional Email for emails like password resets, order confirmations, etc. Select Marketing Email for sending bulk emails like newsletters, broadcasts, etc. %1$sLearn more%2$s"
+msgstr "Chọn loại email bạn sẽ gửi qua kết nối này. Chọn Email Giao dịch cho các email như đặt lại mật khẩu, xác nhận đơn hàng, v.v. Chọn Email Tiếp thị để gửi email hàng loạt như bản tin, phát sóng, v.v. %1$sTìm hiểu thêm%2$s"
+
+#: inc/emails/providers/elastic/elastic-handler.php:180
+msgid "Email sent successfully via Elastic Email."
+msgstr "Email đã được gửi thành công qua Elastic Email."
+
+#: inc/emails/providers/elastic/elastic-handler.php:121
+msgid "Elastic Email connection authenticated successfully."
+msgstr "Kết nối Elastic Email đã được xác thực thành công."
+
+#. translators: %s: Connection priority
+#: inc/api/save-test-connection.php:115
+msgid "Connection Sequence %1$s is already assigned to another connection. Please choose a different sequence."
+msgstr "Chuỗi kết nối %1$s đã được gán cho một kết nối khác. Vui lòng chọn một chuỗi khác."
+
+#: inc/emails/providers/smtp2go/smtp2go-handler.php:282
+msgid "Enter your SMTP2GO API Key"
+msgstr "Nhập API Key SMTP2GO của bạn"
+
+#. translators: %s: https://app.smtp2go.com/login/ URL.
+#: inc/emails/providers/smtp2go/smtp2go-handler.php:276
+msgid "Click on this link to generate an API Key from SMTP2GO - %1$sCreate API Key%2$s"
+msgstr "Nhấp vào liên kết này để tạo một API Key từ SMTP2GO - %1$sTạo API Key%2$s"
+
+#: inc/emails/providers/smtp2go/smtp2go-handler.php:257
+msgid "SMTP2GO"
+msgstr "SMTP2GO"
+
+#: inc/emails/providers/smtp2go/smtp2go-handler.php:255
+msgid "Enter the details below to connect with your SMTP2GO account."
+msgstr "Nhập thông tin bên dưới để kết nối với tài khoản SMTP2GO của bạn."
+
+#: inc/emails/providers/smtp2go/smtp2go-handler.php:254
+msgid "SMTP2GO Connection"
+msgstr "Kết nối SMTP2GO"
+
+#: inc/emails/providers/smtp2go/smtp2go-handler.php:234
+msgid "SMTP2GO Server Error"
+msgstr "Lỗi máy chủ SMTP2GO"
+
+#: inc/emails/providers/smtp2go/smtp2go-handler.php:135
+msgid "SMTP2GO authentication failed: Unable to retrieve data. Please check if you have entered the correct API key."
+msgstr "Xác thực SMTP2GO thất bại: Không thể lấy dữ liệu. Vui lòng kiểm tra xem bạn đã nhập đúng API key chưa."
+
+#: inc/emails/providers/smtp2go/smtp2go-handler.php:133
+msgid "SMTP2GO authentication failed: The from_email or domain is not verified."
+msgstr "Xác thực SMTP2GO thất bại: Địa chỉ email gửi đi hoặc miền chưa được xác minh."
+
+#: inc/emails/providers/smtp2go/smtp2go-handler.php:125
+msgid "SMTP2GO authentication successful via domain verification."
+msgstr "Xác thực SMTP2GO thành công qua xác minh tên miền."
+
+#: inc/emails/providers/smtp2go/smtp2go-handler.php:92
+msgid "SMTP2GO authentication successful."
+msgstr "Xác thực SMTP2GO thành công."
+
+#: inc/emails/providers/smtp2go/smtp2go-handler.php:83
+#: inc/emails/providers/smtp2go/smtp2go-handler.php:109
+#: inc/emails/providers/smtp2go/smtp2go-handler.php:138
+msgid "SMTP2GO authentication failed: "
+msgstr "Xác thực SMTP2GO thất bại: "
+
+#: inc/emails/providers/smtp2go/smtp2go-handler.php:67
+msgid "from_email is not provided."
+msgstr "from_email không được cung cấp."
+
+#: inc/emails/providers/sendgrid/sendgrid-handler.php:374
+msgid "Failed to decode JSON response from SendGrid."
+msgstr "Không thể giải mã phản hồi JSON từ SendGrid."
+
+#: inc/emails/providers/sendgrid/sendgrid-handler.php:367
+msgid "SendGrid API returned an error."
+msgstr "API SendGrid đã trả về một lỗi."
+
+#: inc/emails/providers/sendgrid/sendgrid-handler.php:363
+msgid "Unauthorized: API key invalid or insufficient permissions."
+msgstr "Không được phép: API key không hợp lệ hoặc quyền không đủ."
+
+#: inc/emails/providers/sendgrid/sendgrid-handler.php:157
+msgid "SendGrid connection authenticated successfully. Domain of sender email is verified."
+msgstr "Kết nối SendGrid đã được xác thực thành công. Miền của email người gửi đã được xác minh."
+
+#: inc/emails/providers/sendgrid/sendgrid-handler.php:150
+msgid "SendGrid authentication failed: Sender email or domain is not verified."
+msgstr "Xác thực SendGrid thất bại: Email hoặc miền người gửi chưa được xác minh."
+
+#: inc/emails/providers/sendgrid/sendgrid-handler.php:132
+msgid "Failed to retrieve whitelabel domains: "
+msgstr "Không thể lấy tên miền whitelabel: "
+
+#: inc/emails/providers/sendgrid/sendgrid-handler.php:111
+msgid "SendGrid connection authenticated successfully. Sender email is verified."
+msgstr "Kết nối SendGrid đã được xác thực thành công. Email người gửi đã được xác minh."
+
+#: inc/emails/providers/sendgrid/sendgrid-handler.php:93
+msgid "Failed to retrieve verified senders: "
+msgstr "Không thể lấy danh sách người gửi đã xác minh: "
+
+#. Description of the plugin
+#: suremails.php
+msgid "WordPress emails often go missing or land in spam because web hosts aren’t built for reliable delivery. SureMail fixes this by connecting to trusted SMTP services, so your emails reach inboxes—no more lost messages or frustrated customers."
+msgstr "Các email WordPress thường bị mất hoặc rơi vào thư rác vì các nhà cung cấp dịch vụ web không được thiết kế để đảm bảo việc gửi đi đáng tin cậy. SureMail khắc phục điều này bằng cách kết nối với các dịch vụ SMTP đáng tin cậy, giúp email của bạn đến được hộp thư đến—không còn tin nhắn bị mất hay khách hàng thất vọng."
+
+#: inc/providers.php:125
+msgid "Enter priority"
+msgstr "Nhập mức độ ưu tiên"
+
+#: inc/providers.php:123
+msgid "Connection Sequence for From Email"
+msgstr "Trình tự kết nối cho Email Từ"
+
+#. translators: %s:
+#. https://suremails.com/docs/multiple-backup-connections?utm_campaign=suremails&utm_medium=suremails-dashboard
+#. URL.
+#: inc/providers.php:119
+msgid "Set the order in which connections should be used to send emails. The connection for the \"From Email\" specified above and the lowest sequence number will be used first. If that connection fails, the next connection with the same \"From Email\" and the following lowest sequence number will be used. %1$sMore Information here%2$s"
+msgstr "Thiết lập thứ tự sử dụng các kết nối để gửi email. Kết nối cho \"Email Từ\" được chỉ định ở trên và số thứ tự nhỏ nhất sẽ được sử dụng trước tiên. Nếu kết nối đó thất bại, kết nối tiếp theo với cùng \"Email Từ\" và số thứ tự thấp hơn tiếp theo sẽ được sử dụng. %1$sThông tin thêm tại đây%2$s"
+
+#: inc/providers.php:76
+msgid "Enter Connection Title"
+msgstr "Nhập tiêu đề kết nối"
+
+#: inc/emails/providers/phpmail/phpmail-handler.php:148
+msgid "Enter the details below to connect with your PHP Mail account."
+msgstr "Nhập thông tin bên dưới để kết nối với tài khoản PHP Mail của bạn."
+
+#: inc/emails/providers/sparkpost/sparkpost-handler.php:284
+msgid "Enter your SparkPost API key"
+msgstr "Nhập API key SparkPost của bạn"
+
+#: inc/emails/providers/sparkpost/sparkpost-handler.php:262
+msgid "Enter the details below to connect with your SparkPost account."
+msgstr "Nhập thông tin bên dưới để kết nối với tài khoản SparkPost của bạn."
+
+#: inc/emails/providers/sparkpost/sparkpost-handler.php:261
+msgid "SparkPost Connection"
+msgstr "Kết nối SparkPost"
+
+#: inc/emails/providers/sparkpost/sparkpost-handler.php:79
+msgid "SparkPost connection saved successfully."
+msgstr "Kết nối SparkPost đã được lưu thành công."
+
+#: inc/emails/providers/smtp/smtp-handler.php:233
+msgid "TLS"
+msgstr "TLS"
+
+#: inc/emails/providers/smtp/smtp-handler.php:232
+msgid "SSL"
+msgstr "SSL"
+
+#: inc/emails/providers/smtp/smtp-handler.php:210
+msgid "Enter SMTP password"
+msgstr "Nhập mật khẩu SMTP"
+
+#: inc/emails/providers/smtp/smtp-handler.php:202
+msgid "Enter SMTP username"
+msgstr "Nhập tên người dùng SMTP"
+
+#: inc/emails/providers/smtp/smtp-handler.php:194
+msgid "Enter port"
+msgstr "Nhập port"
+
+#: inc/emails/providers/smtp/smtp-handler.php:163
+msgid "Enter the details below to connect with your SMTP account."
+msgstr "Nhập thông tin bên dưới để kết nối với tài khoản SMTP của bạn."
+
+#: inc/emails/providers/sendgrid/sendgrid-handler.php:334
+msgid "Enter your SendGrid API Key"
+msgstr "Nhập API key SendGrid của bạn"
+
+#: inc/emails/providers/sendgrid/sendgrid-handler.php:311
+msgid "Enter the details below to connect with your SendGrid account."
+msgstr "Nhập thông tin bên dưới để kết nối với tài khoản SendGrid của bạn."
+
+#: inc/emails/providers/sendgrid/sendgrid-handler.php:286
+msgid "Email sent successfully via SendGrid."
+msgstr "Email đã được gửi thành công qua SendGrid."
+
+#: inc/emails/providers/sendgrid/sendgrid-handler.php:277
+#: inc/emails/providers/sendgrid/sendgrid-handler.php:292
+#: inc/emails/providers/sendgrid/sendgrid-handler.php:296
+msgid "SendGrid send failed: "
+msgstr "Gửi SendGrid thất bại: "
+
+#: inc/emails/providers/postmark/postmark-handler.php:206
+msgid "Enter your Postmark Server Token"
+msgstr "Nhập Mã thông báo Máy chủ Postmark của bạn"
+
+#: inc/emails/providers/postmark/postmark-handler.php:204
+msgid "Server Token"
+msgstr "Mã thông báo máy chủ"
+
+#: inc/emails/providers/postmark/postmark-handler.php:184
+msgid "Enter the details below to connect with your Postmark account."
+msgstr "Nhập thông tin bên dưới để kết nối với tài khoản Postmark của bạn."
+
+#: inc/emails/providers/postmark/postmark-handler.php:71
+msgid "Postmark connection saved successfully."
+msgstr "Kết nối Postmark đã được lưu thành công."
+
+#: inc/emails/providers/netcore/netcore-handler.php:197
+msgid "Enter the details below to connect with your Netcore account."
+msgstr "Nhập thông tin bên dưới để kết nối với tài khoản Netcore của bạn."
+
+#: inc/emails/providers/phpmail/phpmail-handler.php:73
+msgid "PHP Mail connection saved successfully."
+msgstr "Kết nối PHP Mail đã lưu thành công."
+
+#: inc/emails/providers/outlook/outlook-handler.php:122
+msgid "Enter your Outlook Redirect URI"
+msgstr "Nhập URI Chuyển hướng Outlook của bạn"
+
+#: inc/emails/providers/gmail/gmail-handler.php:260
+#: inc/emails/providers/outlook/outlook-handler.php:120
+msgid "Redirect URI"
+msgstr "URI Chuyển hướng"
+
+#: inc/emails/providers/outlook/outlook-handler.php:114
+msgid "Enter your Outlook Client Secret"
+msgstr "Nhập Bí mật Khách hàng Outlook của bạn"
+
+#: inc/emails/providers/outlook/outlook-handler.php:106
+msgid "Enter your Outlook Client ID"
+msgstr "Nhập ID Khách hàng Outlook của bạn"
+
+#: inc/emails/providers/outlook/outlook-handler.php:85
+msgid "Enter the details below to connect with your Microsoft Outlook/Office 365 account."
+msgstr "Nhập thông tin bên dưới để kết nối với tài khoản Microsoft Outlook/Office 365 của bạn."
+
+#: inc/emails/providers/outlook/outlook-handler.php:72
+msgid "Outlook sending not yet implemented."
+msgstr "Chức năng gửi Outlook chưa được triển khai."
+
+#: inc/emails/providers/outlook/outlook-handler.php:54
+msgid "Outlook connection saved successfully."
+msgstr "Kết nối Outlook đã được lưu thành công."
+
+#: inc/emails/providers/mailjet/mailjet-handler.php:262
+msgid "Enter your Mailjet API key"
+msgstr "Nhập API key Mailjet của bạn"
+
+#: inc/emails/providers/mailjet/mailjet-handler.php:240
+msgid "Enter the details below to connect with your Mailjet account."
+msgstr "Nhập thông tin bên dưới để kết nối với tài khoản Mailjet của bạn."
+
+#: inc/emails/providers/mailjet/mailjet-handler.php:239
+msgid "Mailjet Connection"
+msgstr "Kết nối Mailjet"
+
+#: inc/emails/providers/mailjet/mailjet-handler.php:114
+msgid "Mailjet connection saved successfully."
+msgstr "Kết nối Mailjet đã được lưu thành công."
+
+#. translators: %s: www.mailgun.com/about/regions/ URL.
+#: inc/emails/providers/mailgun/mailgun-handler.php:238
+msgid "Select the endpoint you want to use for sending messages. If you are subject to EU laws, you may need to use the EU region. %1$sLearn more at Mailgun.com%2$s"
+msgstr "Chọn điểm cuối bạn muốn sử dụng để gửi thư. Nếu bạn thuộc phạm vi luật EU, bạn có thể cần sử dụng khu vực EU. %1$sTìm hiểu thêm tại Mailgun.com%2$s"
+
+#: inc/emails/providers/mailgun/mailgun-handler.php:236
+msgid "Select your Mailgun region"
+msgstr "Chọn khu vực Mailgun của bạn"
+
+#: inc/emails/providers/mailgun/mailgun-handler.php:233
+#: inc/emails/providers/sparkpost/sparkpost-handler.php:294
+msgid "EU"
+msgstr "EU"
+
+#: inc/emails/providers/mailgun/mailgun-handler.php:232
+#: inc/emails/providers/sparkpost/sparkpost-handler.php:293
+msgid "US"
+msgstr "US"
+
+#: inc/emails/providers/mailgun/mailgun-handler.php:224
+msgid "Enter your Mailgun domain"
+msgstr "Nhập miền Mailgun của bạn"
+
+#: inc/emails/providers/mailgun/mailgun-handler.php:222
+msgid "Domain"
+msgstr "Miền"
+
+#: inc/emails/providers/mailgun/mailgun-handler.php:216
+msgid "Enter your Mailgun API key"
+msgstr "Nhập API key Mailgun của bạn"
+
+#: inc/emails/providers/mailgun/mailgun-handler.php:194
+msgid "Enter the details below to connect with your Mailgun account."
+msgstr "Nhập thông tin bên dưới để kết nối với tài khoản Mailgun của bạn."
+
+#: inc/emails/providers/mailgun/mailgun-handler.php:176
+msgid "Email sent successfully via Mailgun."
+msgstr "Email đã được gửi thành công qua Mailgun."
+
+#: inc/emails/providers/mailgun/mailgun-handler.php:164
+#: inc/emails/providers/mailgun/mailgun-handler.php:179
+msgid "Mailgun send failed: "
+msgstr "Gửi Mailgun thất bại: "
+
+#: inc/emails/providers/mailgun/mailgun-handler.php:86
+msgid "Mailgun domain is missing."
+msgstr "Thiếu miền Mailgun."
+
+#: inc/emails/providers/sparkpost/sparkpost-handler.php:73
+msgid "The \"From Email\" is not a valid email address."
+msgstr "\"Email Từ\" không phải là địa chỉ email hợp lệ."
+
+#: inc/emails/providers/gmail/gmail-handler.php:245
+msgid "Enter your Gmail Client Secret"
+msgstr "Nhập Bí mật Khách hàng Gmail của bạn"
+
+#: inc/emails/providers/gmail/gmail-handler.php:243
+#: inc/emails/providers/outlook/outlook-handler.php:112
+msgid "Client Secret"
+msgstr "Client Secret"
+
+#: inc/emails/providers/gmail/gmail-handler.php:234
+msgid "Enter your Gmail Client ID"
+msgstr "Nhập ID Khách hàng Gmail của bạn"
+
+#: inc/emails/providers/gmail/gmail-handler.php:232
+#: inc/emails/providers/outlook/outlook-handler.php:104
+msgid "Client ID"
+msgstr "Client ID"
+
+#: inc/emails/providers/gmail/gmail-handler.php:196
+msgid "Enter the details below to connect with your Gmail account."
+msgstr "Nhập thông tin bên dưới để kết nối với tài khoản Gmail của bạn."
+
+#: inc/emails/providers/elastic/elastic-handler.php:466
+msgid "Enter your Elastic Email API key"
+msgstr "Nhập API key Elastic Email của bạn"
+
+#: inc/emails/providers/elastic/elastic-handler.php:444
+msgid "Enter the details below to connect with your Elastic Email account."
+msgstr "Nhập thông tin bên dưới để kết nối với tài khoản Elastic Email của bạn."
+
+#: inc/emails/providers/elastic/elastic-handler.php:443
+msgid "Elastic Email Connection"
+msgstr "Kết nối Elastic Email"
+
+#: inc/emails/providers/brevo/brevo-handler.php:404
+msgid "Unauthorized: API key invalid"
+msgstr "Không được phép: API key không hợp lệ"
+
+#: inc/emails/providers/brevo/brevo-handler.php:372
+msgid "Enter your Brevo API key"
+msgstr "Nhập API key Brevo của bạn"
+
+#: inc/emails/providers/brevo/brevo-handler.php:370
+#: inc/emails/providers/elastic/elastic-handler.php:464
+#: inc/emails/providers/mailgun/mailgun-handler.php:214
+#: inc/emails/providers/mailjet/mailjet-handler.php:260
+#: inc/emails/providers/netcore/netcore-handler.php:217
+#: inc/emails/providers/sendgrid/sendgrid-handler.php:332
+#: inc/emails/providers/smtp2go/smtp2go-handler.php:280
+#: inc/emails/providers/sparkpost/sparkpost-handler.php:282
+msgid "API Key"
+msgstr "API Key"
+
+#: inc/emails/providers/brevo/brevo-handler.php:349
+msgid "Enter the details below to connect with your Brevo account."
+msgstr "Nhập thông tin bên dưới để kết nối với tài khoản Brevo của bạn."
+
+#: inc/emails/providers/brevo/brevo-handler.php:348
+msgid "Brevo Connection"
+msgstr "Kết nối Brevo"
+
+#: inc/emails/providers/brevo/brevo-handler.php:329
+#: inc/emails/providers/mailgun/mailgun-handler.php:178
+#: inc/emails/providers/postmark/postmark-handler.php:168
+#: inc/emails/providers/sendgrid/sendgrid-handler.php:291
+msgid "Unknown error."
+msgstr "Lỗi không xác định."
+
+#: inc/emails/providers/brevo/brevo-handler.php:327
+msgid "Email sent successfully via Brevo."
+msgstr "Email đã được gửi thành công qua Brevo."
+
+#: inc/emails/providers/brevo/brevo-handler.php:314
+#: inc/emails/providers/brevo/brevo-handler.php:330
+#: inc/emails/providers/brevo/brevo-handler.php:334
+msgid "Brevo send failed: "
+msgstr "Gửi Brevo thất bại: "
+
+#: inc/emails/providers/brevo/brevo-handler.php:302
+#: inc/emails/providers/mailjet/mailjet-handler.php:185
+#: inc/emails/providers/sendgrid/sendgrid-handler.php:266
+#: inc/emails/providers/smtp2go/smtp2go-handler.php:204
+#: inc/emails/providers/sparkpost/sparkpost-handler.php:152
+msgid "Failed to encode email payload to JSON."
+msgstr "Mã hóa dữ liệu email sang JSON thất bại."
+
+#: inc/emails/providers/brevo/brevo-handler.php:199
+msgid "Brevo authentication failed: Sender email not found and the domain is not authenticated/verified."
+msgstr "Xác thực Brevo thất bại: Email người gửi không tìm thấy và miền chưa được xác thực/xác minh."
+
+#: inc/emails/providers/brevo/brevo-handler.php:197
+msgid "Brevo connection authenticated successfully. Domain is authenticated and verified."
+msgstr "Kết nối Brevo đã được xác thực thành công. Miền đã được xác thực và xác minh."
+
+#: inc/emails/providers/brevo/brevo-handler.php:178
+msgid "Failed to get domains: "
+msgstr "Lấy miền thất bại: "
+
+#: inc/emails/providers/brevo/brevo-handler.php:171
+#: inc/emails/providers/sendgrid/sendgrid-handler.php:122
+msgid "Invalid sender email format. Domain missing."
+msgstr "Định dạng email người gửi không hợp lệ. Thiếu miền."
+
+#: inc/emails/providers/brevo/brevo-handler.php:163
+msgid "Brevo connection authenticated successfully. Sender email exists."
+msgstr "Kết nối Brevo đã được xác thực thành công. Email người gửi tồn tại."
+
+#: inc/emails/providers/brevo/brevo-handler.php:145
+msgid "Failed to get senders: "
+msgstr "Lấy người gửi thất bại: "
+
+#: inc/emails/providers/brevo/brevo-handler.php:132
+#: inc/emails/providers/elastic/elastic-handler.php:114
+#: inc/emails/providers/sendgrid/sendgrid-handler.php:80
+msgid "API key or From Email is missing in the connection data."
+msgstr "Thiếu API key hoặc Email gửi trong dữ liệu kết nối."
+
+#: inc/emails/providers/aws/aws-handler.php:228
+msgid "Select Region"
+msgstr "Chọn khu vực"
+
+#: inc/emails/providers/aws/aws-handler.php:215
+#: inc/emails/providers/gmail/gmail-handler.php:289
+msgid "Enter Return Path"
+msgstr "Nhập Đường dẫn trả về"
+
+#: inc/emails/providers/aws/aws-handler.php:174
+msgid "Enter the details below to connect with your Amazon SES account."
+msgstr "Nhập các chi tiết bên dưới để kết nối với tài khoản Amazon SES của bạn."
+
+#: inc/nps-notice.php:94
+msgid "Rate SureMail"
+msgstr "Đánh giá SureMail"
+
+#: inc/nps-notice.php:93
+msgid "We value your input. How can we improve your experience?"
+msgstr "Chúng tôi đánh giá cao ý kiến của bạn. Chúng tôi có thể cải thiện trải nghiệm của bạn như thế nào?"
+
+#: inc/nps-notice.php:92
+msgid "Thank you for your feedback"
+msgstr "Cảm ơn bạn đã phản hồi"
+
+#: inc/nps-notice.php:90
+msgid "Could you please do us a favor and give us a 5-star rating on WordPress? It would help others choose SureMail with confidence. Thank you!"
+msgstr "Bạn có thể giúp chúng tôi một việc và cho chúng tôi đánh giá 5 sao trên WordPress được không? Điều đó sẽ giúp người khác chọn SureMail với sự tự tin. Cảm ơn!"
+
+#: inc/nps-notice.php:89
+msgid "Thanks a lot for your feedback! 😍"
+msgstr "Cảm ơn bạn rất nhiều vì phản hồi của bạn! 😍"
+
+#: inc/nps-notice.php:88
+msgid "How likely are you to recommend SureMail to your friends or colleagues?"
+msgstr "Bạn có khả năng giới thiệu SureMail cho bạn bè hoặc đồng nghiệp của mình đến mức nào?"
+
+#: inc/lib/nps-survey/classes/nps-survey-script.php:270
+#: inc/lib/nps-survey/classes/nps-survey-script.php:376
+msgid "Nonce verification failed."
+msgstr "Xác minh Nonce thất bại."
+
+#: inc/lib/nps-survey/classes/nps-survey-script.php:248
+msgid "Sorry, you are not allowed to do that."
+msgstr "Rất tiếc, bạn không được phép làm việc đó."
+
+#: inc/controller/content-guard.php:308
+msgid "Email content is flagged."
+msgstr "Nội dung email bị gắn cờ."
+
+#: inc/controller/content-guard.php:103
+msgid "An error occurred while validating the content."
+msgstr "Đã xảy ra lỗi khi xác thực nội dung."
+
+#: inc/api/save-test-connection.php:297
+msgid "Missing required field."
+msgstr "Thiếu trường bắt buộc."
+
+#: inc/api/save-test-connection.php:172
+msgid "Invalid connection type."
+msgstr "Loại kết nối không hợp lệ."
+
+#: inc/api/save-test-connection.php:153
+msgid "An error occurred: "
+msgstr "Đã xảy ra lỗi: "
+
+#: inc/api/save-test-connection.php:144
+msgid "Connection authenticated and settings saved."
+msgstr "Kết nối đã được xác thực và cài đặt đã được lưu."
+
+#: inc/api/save-test-connection.php:131
+msgid "Failed to authenticate."
+msgstr "Xác thực không thành công."
+
+#: inc/api/save-test-connection.php:85
+msgid "Unsupported connection type."
+msgstr "Loại kết nối không được hỗ trợ."
+
+#: inc/api/provider.php:112
+msgid "Provider not found."
+msgstr "Nhà cung cấp không tìm thấy."
+
+#: inc/api/provider.php:61
+msgid "Optional. Specify the provider key to retrieve details of a specific provider."
+msgstr "Tùy chọn. Chỉ định provider key để truy xuất chi tiết của nhà cung cấp cụ thể."
+
+#: inc/api/api-base.php:79
+msgid "Nonce is invalid."
+msgstr "Nonce không hợp lệ."
+
+#: inc/api/api-base.php:70
+msgid "Nonce is missing."
+msgstr "Thiếu Nonce."
+
+#: inc/emails/providers/smtp/smtp-handler.php:231 build/main.js:2
+#: src/screens/settings/settings.js:158
+msgid "None"
+msgstr "Không có"
+
+#: inc/emails/providers/smtp/smtp-handler.php:240
+msgid "Enable TLS automatically if the server supports it."
+msgstr "Tự động bật TLS nếu máy chủ hỗ trợ."
+
+#: inc/emails/providers/smtp/smtp-handler.php:241
+msgid "Auto TLS"
+msgstr "Auto TLS"
+
+#: inc/emails/providers/smtp/smtp-handler.php:208
+msgid "Password"
+msgstr "Mật khẩu"
+
+#: inc/emails/providers/smtp/smtp-handler.php:200
+msgid "Username"
+msgstr "Tên người dùng"
+
+#: inc/emails/providers/smtp/smtp-handler.php:227
+msgid "Choose SSL for port 465, or TLS for port 25 or 587"
+msgstr "Chọn SSL cho cổng 465, hoặc TLS cho cổng 25 hoặc 587"
+
+#: inc/emails/providers/smtp/smtp-handler.php:228
+msgid "Encryption"
+msgstr "Mã hóa"
+
+#: inc/emails/providers/smtp/smtp-handler.php:192
+msgid "Port"
+msgstr "Cổng"
+
+#: inc/emails/providers/smtp/smtp-handler.php:184
+msgid "Host"
+msgstr "Máy chủ"
+
+#: inc/emails/providers/smtp/smtp-handler.php:186
+msgid "Enter the SMTP host"
+msgstr "Nhập máy chủ SMTP"
+
+#: inc/providers.php:110
+msgid "Force From Name"
+msgstr "Buộc Tên Từ"
+
+#: inc/providers.php:101
+msgid "From Name"
+msgstr "Tên Từ"
+
+#: inc/providers.php:103
+msgid "Enter the name to send from"
+msgstr "Nhập tên để gửi từ"
+
+#: inc/emails/providers/aws/aws-handler.php:213
+#: inc/emails/providers/gmail/gmail-handler.php:287
+#: inc/emails/providers/smtp/smtp-handler.php:218
+msgid "Return Path"
+msgstr "Đường dẫn trả về"
+
+#: inc/providers.php:92
+msgid "Force From Email"
+msgstr "Buộc Email Từ"
+
+#: inc/providers.php:83
+msgid "From Email"
+msgstr "Email Từ"
+
+#: inc/providers.php:85
+msgid "Enter the email address to send from"
+msgstr "Nhập địa chỉ email để gửi từ"
+
+#: inc/emails/providers/aws/aws-handler.php:226
+#: inc/emails/providers/mailgun/mailgun-handler.php:229
+#: inc/emails/providers/netcore/netcore-handler.php:225
+#: inc/emails/providers/sparkpost/sparkpost-handler.php:290
+msgid "Region"
+msgstr "Khu vực"
+
+#: inc/emails/providers/aws/aws-handler.php:203
+#: inc/emails/providers/mailjet/mailjet-handler.php:268
+msgid "Secret Key"
+msgstr "Secret Key"
+
+#: inc/emails/providers/aws/aws-handler.php:205
+msgid "Enter your AWS secret key"
+msgstr "Nhập secret key AWS của bạn"
+
+#: inc/emails/providers/aws/aws-handler.php:194
+msgid "Access Key"
+msgstr "Access Key"
+
+#: inc/emails/providers/aws/aws-handler.php:196
+msgid "Enter your AWS access key"
+msgstr "Nhập access key AWS của bạn"
+
+#: inc/providers.php:77 build/main.js:2
+#: src/screens/connections/connections.js:232
+msgid "Connection Title"
+msgstr "Tiêu đề Kết nối"
+
+#: inc/providers.php:109
+msgid "Enable this option to ensure all emails sent from your site use the \"From Name\" specified in this connection, overriding any other \"From Name\" set by other plugins, themes, etc."
+msgstr "Bật tùy chọn này để đảm bảo tất cả email được gửi từ trang web của bạn sử dụng \"Tên Từ\" được chỉ định trong kết nối này, ghi đè bất kỳ \"Tên Từ\" nào khác được đặt bởi các plugin, theme, v.v."
+
+#: inc/emails/providers/aws/aws-handler.php:212
+#: inc/emails/providers/smtp/smtp-handler.php:217
+msgid "The Return Path is where bounce messages (failed delivery notices) are sent. If it’s off, you might not get these messages. Turn it on to receive bounce notifications at the \"From Email\" address if delivery fails."
+msgstr "Đường dẫn trả về là nơi tin nhắn trả lại (thông báo gửi thất bại) được gửi đến. Nếu tắt, bạn có thể không nhận được những tin nhắn này. Bật nó lên để nhận thông báo trả lại tại địa chỉ \"Email Từ\" nếu gửi thất bại."
+
+#: inc/providers.php:91
+msgid "Enable this option to force all emails sent from your site to use the \"From Email\" specified in this connection, overriding any other \"From Email\" set by other plugins, themes, etc."
+msgstr "Bật tùy chọn này để buộc tất cả email được gửi từ trang web của bạn sử dụng \"Email Từ\" được chỉ định trong kết nối này, ghi đè bất kỳ \"Email Từ\" nào khác được đặt bởi các plugin, theme, v.v."
+
+#: inc/emails/providers/mailjet/mailjet-handler.php:243
+msgid "Mailjet"
+msgstr "Mailjet"
+
+#: inc/emails/providers/elastic/elastic-handler.php:447
+msgid "Elastic Email"
+msgstr "Elastic Email"
+
+#: inc/emails/providers/sparkpost/sparkpost-handler.php:265
+msgid "SparkPost"
+msgstr "SparkPost"
+
+#: inc/emails/providers/brevo/brevo-handler.php:351
+msgid "Brevo (Sendinblue)"
+msgstr "Brevo (Sendinblue)"
+
+#: inc/emails/providers/postmark/postmark-handler.php:187
+msgid "Postmark"
+msgstr "Postmark"
+
+#: inc/emails/providers/sendgrid/sendgrid-handler.php:313
+msgid "SendGrid"
+msgstr "SendGrid"
+
+#: inc/emails/providers/mailgun/mailgun-handler.php:197
+msgid "Mailgun"
+msgstr "Mailgun"
+
+#: inc/emails/providers/outlook/outlook-handler.php:88
+msgid "Microsoft Outlook/Office 365"
+msgstr "Microsoft Outlook/Office 365"
+
+#: inc/emails/providers/smtp/smtp-handler.php:165
+msgid "Other SMTP Provider"
+msgstr "Nhà cung cấp SMTP khác"
+
+#: inc/emails/providers/aws/aws-handler.php:173
+msgid "Amazon SES"
+msgstr "Amazon SES"
+
+#: inc/emails/providers/gmail/gmail-handler.php:195
+msgid "Gmail Connection"
+msgstr "Kết nối Gmail"
+
+#: inc/emails/providers/phpmail/phpmail-handler.php:147
+msgid "PHP Mail Connection"
+msgstr "Kết nối Mail PHP"
+
+#: inc/emails/providers/postmark/postmark-handler.php:183
+msgid "Postmark Connection"
+msgstr "Kết nối Postmark"
+
+#: inc/emails/providers/sendgrid/sendgrid-handler.php:310
+msgid "SendGrid Connection"
+msgstr "Kết nối SendGrid"
+
+#: inc/emails/providers/mailgun/mailgun-handler.php:193
+msgid "Mailgun Connection"
+msgstr "Kết nối Mailgun"
+
+#: inc/emails/providers/outlook/outlook-handler.php:84
+msgid "Outlook Connection"
+msgstr "Kết nối Outlook"
+
+#: inc/emails/providers/smtp/smtp-handler.php:162
+msgid "SMTP Connection"
+msgstr "Kết nối SMTP"
+
+#: inc/emails/providers/aws/aws-handler.php:172
+msgid "AWS Connection"
+msgstr "Kết nối AWS"
+
+#: inc/emails/providers/aws/aws-handler.php:160
+msgid "Email sending failed via AWS SES: "
+msgstr "Gửi email thất bại qua AWS SES: "
+
+#: inc/emails/providers/aws/aws-handler.php:153
+msgid "Email sent successfully via AWS SES."
+msgstr "Gửi email thành công qua AWS SES."
+
+#: inc/emails/providers/aws/aws-handler.php:107
+msgid "AWS SES authentication failed: "
+msgstr "Xác thực AWS SES thất bại: "
+
+#: inc/emails/providers/aws/aws-handler.php:104
+msgid "AWS SES authentication failed: The from_email or its domain is not a verified identity."
+msgstr "Xác thực AWS SES thất bại: from_email hoặc miền của nó không phải là danh tính đã được xác minh."
+
+#: inc/emails/providers/aws/aws-handler.php:83
+#: inc/emails/providers/aws/aws-handler.php:102
+msgid "AWS SES authentication successful."
+msgstr "Xác thực AWS SES thành công."
+
+#: inc/emails/handler/mail-handler.php:145
+#: inc/emails/handler/mail-handler.php:456
+#: inc/emails/providers/aws/aws-handler.php:133
+#: inc/emails/providers/brevo/brevo-handler.php:225
+#: inc/emails/providers/mailgun/mailgun-handler.php:97
+#: inc/emails/providers/sendgrid/sendgrid-handler.php:183
+#: inc/emails/providers/smtp/smtp-handler.php:126
+msgid "WordPress"
+msgstr "WordPress"
+
+#: inc/api/set-settings.php:177
+msgid "No changes made to the settings."
+msgstr "Không có thay đổi nào được thực hiện đối với cài đặt."
+
+#: inc/api/set-settings.php:166
+msgid "Failed to update settings."
+msgstr "Cập nhật cài đặt thất bại."
+
+#: inc/api/set-settings.php:157
+msgid "Settings updated successfully."
+msgstr "Cập nhật cài đặt thành công."
+
+#: inc/api/set-settings.php:99
+msgid "Invalid or missing default connection data."
+msgstr "Dữ liệu kết nối mặc định không hợp lệ hoặc thiếu."
+
+#: inc/api/set-settings.php:80
+msgid "Settings data is missing or invalid."
+msgstr "Dữ liệu cài đặt bị thiếu hoặc không hợp lệ."
+
+#: inc/api/send-test-email.php:148
+msgid "Failed to send test email"
+msgstr "Gửi email thử thất bại"
+
+#: inc/api/send-test-email.php:143
+msgid "Email sent successfully."
+msgstr "Gửi email thành công."
+
+#. Translators: %s is the site name.
+#: inc/api/send-test-email.php:136
+msgid "SureMail: Test Email - %s"
+msgstr "SureMail: Kiểm tra Email - %s"
+
+#: inc/api/recommended-plugin.php:82
+msgid "Invalid nonce."
+msgstr "Nonce không hợp lệ."
+
+#: inc/api/recommended-plugin.php:70
+msgid "You do not have permissions to perform this action."
+msgstr "Bạn không có quyền thực hiện hành động này."
+
+#: inc/api/email-stats.php:102
+msgid "The start_date parameter is required."
+msgstr "Tham số start_date là bắt buộc."
+
+#: inc/api/delete-connection.php:128 build/main.js:2
+#: src/screens/connections/connections.js:106
+msgid "Connection deleted successfully."
+msgstr "Xóa kết nối thành công."
+
+#: inc/api/delete-connection.php:110
+msgid "Connection details do not match."
+msgstr "Chi tiết kết nối không khớp."
+
+#: inc/api/delete-connection.php:97
+msgid "Connection not found."
+msgstr "Không tìm thấy kết nối."
+
+#: inc/api/delete-connection.php:86
+msgid "No connections found."
+msgstr "Không tìm thấy kết nối nào."
+
+#: inc/api/api-base.php:59
+msgid "You do not have permission to perform this action."
+msgstr "Bạn không có quyền thực hiện hành động này."
+
+#: inc/ajax/ajax.php:97 build/main.js:2
+#: src/screens/dashboard/recommended-plugins.js:241
+#: src/screens/notifications/empty-notifications.js:80
+msgid "Plugin activated successfully."
+msgstr "Plugin đã được kích hoạt thành công."
+
+#: inc/ajax/ajax.php:64
+msgid "No plugin specified."
+msgstr "Không chỉ định plugin nào."
+
+#: inc/ajax/ajax.php:52
+msgid "You do not have permission to activate plugins."
+msgstr "Bạn không có quyền kích hoạt plugin."
+
+#: inc/ajax/ajax.php:42
+msgid "Not an ajax request."
+msgstr "Không phải là yêu cầu ajax."
+
+#: inc/admin/plugin.php:265
+msgid "Settings"
+msgstr "Cài đặt"
+
+#: inc/admin/plugin.php:170
+msgid "SureMail Settings"
+msgstr "Cài đặt SureMail"
+
+#. Author URI of the plugin
+#: suremails.php
+msgid "https://suremails.com/"
+msgstr "https://suremails.com/"
+
+#. Plugin URI of the plugin
+#: suremails.php
+msgid "https://suremails.com"
+msgstr "https://suremails.com"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: suremails.php inc/admin/plugin.php:171 inc/nps-notice.php:87
+msgid "SureMail"
+msgstr "SureMail"
